@@ -1,0 +1,43 @@
+/* Tamaño tablet horizontal (1024-768) */
+@media all and (max-width: 800px) {
+  .Contenedor-secundario {
+    &__uno {
+      display: none;
+    }
+  }
+}
+
+@media all and (max-width: 475px) {
+  .Contenedor-principal {
+    box-shadow: none;
+  }
+  .Contenedor-secundario {
+    width: 100%;
+
+    &__gle {
+      display: none;
+    }
+    &__dos {
+      box-shadow: none;
+    }
+    &__follow {
+      font-size: 1em;
+      margin-bottom: 3em;
+    }
+    &__follow--dos {
+      display: none;
+    }
+  }
+}
+@media all and (max-width: 345px) {
+  .Contenedor-secundario {
+    &__input {
+      width: calc(10em + 30vw);
+    }
+    &__fantasma--uno,
+    &__fantasma--dos,
+    &__fantasma--tres {
+      display: none;
+    }
+  }
+}

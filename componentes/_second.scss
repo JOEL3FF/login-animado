@@ -1,0 +1,239 @@
+@import "variables";
+
+.Contenedor-second {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  &__an {
+    width: 5em;
+    height: 5em;
+  }
+
+  .uno {
+    @keyframes io {
+      from {
+        transform: translateX(0) translateY(0);
+      }
+      25% {
+        transform: translateX(100vw) translateY(25vh);
+      }
+      50% {
+        transform: rotate(15deg) translateX(0vw) translateY(55vh);
+      }
+      75% {
+        transform: translateX(100vw) translateY(70vh);
+      }
+      100% {
+        transform: translateX(0) translateY(0);
+      }
+    }
+    animation: io 50s linear infinite;
+  }
+  .dos {
+    visibility: hidden;
+    @keyframes pio {
+      from {
+        transform: translateX(100vw) translateY(100vh);
+        visibility: visible;
+      }
+      25% {
+        transform: translateX(-10vw) translateY(75vh);
+      }
+      50% {
+        transform: translateX(100vw) translateY(55vh);
+      }
+      75% {
+        transform: translateX(-10vw) translateY(35vh);
+      }
+      100% {
+        transform: translateX(100vw) translateY(15vh);
+      }
+    }
+    animation: pio 50s 4s linear infinite;
+  }
+  .tres {
+    visibility: hidden;
+    @keyframes pios {
+      from {
+        transform: translateX(0vw) translateY(0vh);
+        visibility: visible;
+      }
+      25% {
+        transform: translateX(40vw) translateY(100vh);
+      }
+      50% {
+        transform: translateX(100vw) translateY(0vh);
+      }
+      75% {
+        transform: translateX(-20vw) translateY(100vh);
+      }
+      100% {
+        transform: translateX(-50vw) translateY(0vh);
+      }
+    }
+    animation: pios 50s 2s linear infinite;
+  }
+  .cuatro {
+    visibility: hidden;
+    @keyframes piose {
+      from {
+        transform: translateX(0vw) translateY(100vh);
+        visibility: visible;
+      }
+      25% {
+        transform: translateX(40vw) translateY(0vh);
+      }
+      50% {
+        transform: translateX(100vw) translateY(100vh);
+      }
+      75% {
+        transform: translateX(-20vw) translateY(0vh);
+      }
+      100% {
+        transform: translateX(-50vw) translateY(100vh);
+      }
+    }
+    animation: piose 50s 7s linear infinite;
+  }
+  .cinco {
+    visibility: hidden;
+    @keyframes pioser {
+      from {
+        transform: translateX(50vw) translateY(0vh);
+        visibility: visible;
+      }
+      25% {
+        transform: translateX(50vw) translateY(50vh);
+      }
+      50% {
+        transform: translateX(50vw) translateY(100vh);
+      }
+      75% {
+        transform: translateX(-20vw) translateY(50vh);
+      }
+      100% {
+        transform: translateX(-50vw) translateY(0vh);
+      }
+    }
+    animation: pioser 50s 5s linear infinite;
+  }
+  .seis {
+    position: absolute;
+    left: 50%;
+    @keyframes piosero {
+      from {
+        transform: translateX(50vw) translateY(0vh);
+      }
+      25% {
+        transform: translateX(50vw) translateY(50vh);
+      }
+      50% {
+        transform: translateX(50vw) translateY(100vh);
+      }
+      75% {
+        transform: translateX(-20vw) translateY(50vh);
+      }
+      100% {
+        transform: translateX(-50vw) translateY(0vh);
+      }
+    }
+    animation: piosero 50s linear infinite;
+  }
+
+  .siete {
+    visibility: hidden;
+    @keyframes pioserosi {
+      from {
+        transform: translateX(20vw) translateY(0vh);
+        visibility: visible;
+      }
+      25% {
+        transform: translateX(50vw) translateY(50vh);
+      }
+      50% {
+        transform: translateX(50vw) translateY(100vh);
+      }
+      75% {
+        transform: translateX(-10vw) translateY(50vh);
+      }
+      100% {
+        transform: translateX(50vw) translateY(0vh);
+      }
+    }
+    animation: pioserosi 50s 12s linear infinite;
+  }
+  .ocho {
+    position: absolute;
+    bottom: 10em;
+    visibility: hidden;
+    @keyframes pioserosp {
+      from {
+        transform: translateX(50vw) translateY(0vh);
+        visibility: visible;
+      }
+      25% {
+        transform: translateX(50vw) translateY(50vh);
+      }
+      50% {
+        transform: translateX(50vw) translateY(100vh);
+      }
+      75% {
+        transform: translateX(-20vw) translateY(50vh);
+      }
+      100% {
+        transform: translateX(-50vw) translateY(0vh);
+      }
+    }
+    animation: pioserosp 50s 8s linear infinite;
+  }
+  .nueve {
+    visibility: hidden;
+    @keyframes pioserosl {
+      from {
+        transform: translateX(50vw) translateY(100vh);
+        visibility: visible;
+      }
+      25% {
+        transform: translateX(-20vw) translateY(0vh);
+      }
+      50% {
+        transform: translateX(100vw) translateY(100vh);
+      }
+      75% {
+        transform: translateX(50vw) translateY(0vh);
+      }
+      100% {
+        transform: translateX(50vw) translateY(100vh);
+      }
+    }
+    animation: pioserosl 50s 4s linear infinite;
+  }
+  .diez {
+    position: absolute;
+    bottom: 0em;
+    left: 0em;
+    visibility: hidden;
+    @keyframes pioserosf {
+      from {
+        transform: translateX(0vw) translateY(-10vh);
+        visibility: visible;
+      }
+      25% {
+        transform: translateX(100vw) translateY(-50vh);
+      }
+      50% {
+        transform: translateX(50vw) translateY(-100vh);
+      }
+      75% {
+        transform: translateX(20vw) translateY(-50vh);
+      }
+      100% {
+        transform: translateX(0vw) translateY(-10vh);
+      }
+    }
+    animation: pioserosf 50 16s linear infinite;
+  }
+}

@@ -1,0 +1,7 @@
+$color-primario: #a3d0e1;
+$color-secundario: rgba(0, 255, 255, 0.991);
+$color-terciario: rgb(119, 32, 185);
+@mixin animacion {
+  width: 35px;
+  height: 35px;
+}
